@@ -4,11 +4,13 @@
  */
 package com.mycompany.tp5;
 
+import java.io.Serializable;
+
 /**
  *
  * @author amaaradji
  */
-public class Pile {
+public class Pile implements Serializable{
     Liste maListe;
 
     public Pile() {

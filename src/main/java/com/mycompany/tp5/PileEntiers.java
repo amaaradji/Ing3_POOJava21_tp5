@@ -4,11 +4,13 @@
  */
 package com.mycompany.tp5;
 
+import java.io.Serializable;
+
 /**
  *
  * @author amaaradji
  */
-public class PileEntiers extends Pile {
+public class PileEntiers extends Pile implements Serializable{
     
     @Override
     public Integer Depiler() throws VideException {

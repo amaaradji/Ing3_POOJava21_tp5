@@ -49,7 +49,7 @@ public class Main {
         } catch (VideException ex) {
             System.out.println("Liste ou pile vide");
         } catch (Exception ex) {
-            System.out.println("Liste ou pile vide");
+            System.out.println("Autre exception");
         }
         
         

@@ -4,13 +4,14 @@
  */
 package com.mycompany.tp5;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
 /**
  *
  * @author amaaradji
  */
-public class Liste {
+public class Liste implements Serializable{
     private ArrayList<Object> myList = new ArrayList<Object>();
     private int position = -1;
     
